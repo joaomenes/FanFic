@@ -1,0 +1,63 @@
+body{
+    background-color: blueviolet;
+}
+
+.container {
+    width: 55%;
+    margin: 1% auto;
+    background: #fff;
+    padding: 2%;
+    border-radius: 10px;
+  }
+
+  .titulo-fanfic{
+    border-color: black;
+    font-size: 15px;
+  }
+
+  .container-stories{
+    width: 15%;
+    margin: 1% auto;
+    background: #fff;
+    padding: 2%;
+    border-radius: 10px;
+    float:left;
+    margin-top: 0%;
+    padding-top: 1%;
+  }
+
+  .container-playlistMusic{
+    width: 15%;
+    margin: 1% auto;
+    background: #fff;
+    padding: 2%;
+    border-radius: 10px;
+    float:right;
+    margin-top: 0%;
+    padding-top: 25%;
+  }
+  
+  textarea {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding:10px;
+    border-color: rgb(0, 0, 0);
+    padding-left: none;
+    border-style: solid;
+  }
+  
+  textarea, style{
+    padding:1% ;
+    height: 500%;
+  }
+
+  #btn-fanfic{
+    width: 20%;
+    margin-top: 1%;
+    padding-top: 1%;
+    background-color: blueviolet;
+    border: 1% solid;
+    font-size: 20px;
+    border-color: #fff;
+  }
