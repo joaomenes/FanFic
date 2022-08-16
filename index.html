@@ -7,14 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stories</title>
-    <link rel="icon" href="./assets/img/lendo-um-livro.png">
 </head>
 
 <body>
     <section class="container-playlistMusic"></section>
     <section class="container-stories">
 
-        <h1 class="tituloStory">Stories</h1>
+        <h1 class="story">Stories</h1>
+        <ul class="titulos"></ul>
+        <ul id="listaDeFanfics"></ul>
 
     </section>
 
@@ -25,10 +26,10 @@
 
         <textarea class="textFanfic" cols=" 30%" rows="25%" style="resize: none"
             placeholder="Digite sua fanfic aqui..."></textarea>
-        <button type="submit" id="btn-fanfic" style="color: white;">Publicar</button>
+        <button type="submit" class="btn-fanfic" style="color: white;">Publicar</button>
     </section>
 
-    <ul id="listaDeFanfics"></ul>
+   
     <div id="texto-publicados"></div>
 
     <script src="./assistants/js/script.js"></script>
