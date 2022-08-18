@@ -1,63 +1,120 @@
-body{
-    background-color: blueviolet;
+body {
+  background-color: blueviolet;
 }
 
 .container {
-    width: 55%;
-    margin: 1% auto;
-    background: #fff;
-    padding: 2%;
-    border-radius: 10px;
-  }
+  width: 55%;
+  margin: 1% auto;
+  background: #fff;
+  padding: 2%;
+  border-radius: 10px;
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 19.7%;
+}
 
-  .titulo-fanfic{
-    border-color: black;
-    font-size: 15px;
-  }
+.titulo-fanfic {
+  border-color: black;
+  font-size: 15px;
+}
 
-  .container-stories{
-    width: 15%;
-    margin: 1% auto;
-    background: #fff;
-    padding: 2%;
-    border-radius: 10px;
-    float:left;
-    margin-top: 0%;
-    padding-top: 1%;
-  }
+.container-stories {
+  width: 15%;
+  margin: 1% auto;
+  background: #fff;
+  padding: 2%;
+  border-radius: 10px;
+  float: left;
+  margin-top: 5%;
+  padding-top: 1%;
+  position: absolute;
+  border-color: rgb(221, 209, 209);
+}
 
-  .container-playlistMusic{
-    width: 15%;
-    margin: 1% auto;
-    background: #fff;
-    padding: 2%;
-    border-radius: 10px;
-    float:right;
-    margin-top: 0%;
-    padding-top: 25%;
-  }
-  
-  textarea {
-    display: block;
-    width: 100%;
-    font-size: 20px;
-    padding:10px;
-    border-color: rgb(0, 0, 0);
-    padding-left: none;
-    border-style: solid;
-  }
-  
-  textarea, style{
-    padding:1% ;
-    height: 500%;
-  }
+.container-playlistMusic {
+  width: 15%;
+  margin: 1% auto;
+  background: #fff;
+  padding: 2%;
+  border-radius: 10px;
+  margin-left: 79.5%;
+  margin-top: 5%;
+  padding-top: 25%;
+  position: absolute;
+  border-color: rgb(221, 209, 209);
+}
 
-  .btn-fanfic{
-    width: 20%;
-    margin-top: 1%;
-    padding-top: 1%;
-    background-color: blueviolet;
-    border: 1% solid;
-    font-size: 20px;
-    border-color: #fff;
-  }
+textarea {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border-color: rgb(0, 0, 0);
+  padding-left: none;
+  border-style: solid;
+  border-color: rgb(221, 209, 209);
+}
+
+textarea,
+style {
+  padding: 1%;
+  height: 500%;
+
+}
+
+.btn-fanfic {
+  width: 20%;
+  margin-top: 1%;
+  padding-top: 1%;
+  background-color: blueviolet;
+  border: 1% solid;
+  font-size: 20px;
+  border-color: #fff;
+}
+
+div:hover {
+  transform: scale(1.1);
+}
+
+.btn-fanfic:hover {
+  transform: scale(1.1);
+  background-color: rgb(204, 14, 179);
+}
+
+.menu-central {
+  background-color: rgb(221, 209, 209);
+  padding: 1.5%;
+  border-radius: 10px;
+  width: 15%;
+  margin-left: 40%;
+  position: absolute;
+  font-family: OCR A Std, monospace;
+  font-weight: 800;
+  font-size: 110%;
+  text-align: center;
+}
+
+.menu-esquerda {
+  background-color: rgb(221, 209, 209);
+  padding: 1.5%;
+  border-radius: 10px;
+  width: 15%;
+  margin-left: 20%;
+  position: absolute;
+  font-family: OCR A Std, monospace;
+  font-weight: 800;
+  text-align: center;
+  font-size: 96%;
+}
+
+.menu-direita {
+  background-color: rgb(221, 209, 209);
+  padding: 1.5%;
+  border-radius: 10px;
+  width: 15%;
+  margin-left: 60%;
+  position: absolute;
+  font-family: OCR A Std, monospace;
+  font-weight: 800;
+  text-align: center;
+}

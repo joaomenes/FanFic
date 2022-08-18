@@ -9,7 +9,7 @@ botaoFanfic.addEventListener('click', function (e) {
     //caso contrario jogar o texto na lista
     const confirma = confirm("Confirma a publicação dessa Fanfic?")
     if (confirma == true) {
-        criarStory(textoFanfic.value);
+        criarStory((textoFanfic.value));
         limpaAreaTexto();
     } else (alert("A Fanfic não vai ser publicada"));
 });

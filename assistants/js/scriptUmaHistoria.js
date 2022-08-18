@@ -1,0 +1,1 @@
+//uma história aleatória publicada deverá aparecer ao clicar
