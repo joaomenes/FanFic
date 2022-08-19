@@ -2,6 +2,17 @@ body {
   background-color: blueviolet;
 }
 
+.container-historiaDasHistorias{
+  width: 37%;
+  margin: 1% auto;
+  background: #fff;
+  padding: 11%;
+  border-radius: 10px;
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 19.7%;
+}
+
 .container {
   width: 55%;
   margin: 1% auto;
@@ -74,6 +85,7 @@ style {
 
 div:hover {
   transform: scale(1.1);
+  background-color: aquamarine;
 }
 
 .btn-fanfic:hover {
