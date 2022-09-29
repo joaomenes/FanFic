@@ -5,7 +5,7 @@ body {
 .container-historiaDasHistorias{
   width: 57%;
   margin: 1% auto;
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding: 1%;
   border-radius: 10px;
   margin-top: 5%;
@@ -16,7 +16,7 @@ body {
 .container {
   width: 55%;
   margin: 1% auto;
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding: 2%;
   border-radius: 10px;
   margin-top: 5%;
