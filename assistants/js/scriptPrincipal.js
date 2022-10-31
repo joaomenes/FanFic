@@ -9,10 +9,9 @@ botaoFanfic.addEventListener('click', function (e) {
     //caso contrario jogar o texto na lista
     const confirma = confirm("Confirma a publicação dessa Fanfic?")
     if (confirma == true) {
-        criarStory((textoFanfic.value | titutloFanfic.value));
+        criarStory((titutloFanfic.value));
         limpaAreaTexto();
-    } if (confirma == false) {document.location.reload(true);}  //irá recarregar a página caso não for confirmado a publicação
-    });
+    }});
 
 function criarLi() {
     const li = document.createElement('li');  //retorna li 
@@ -27,11 +26,12 @@ function criarStory(textoStory) {
 }
 
 function limpaAreaTexto() {
+    titutloFanfic.value = " ";
     textoFanfic.value = " ";
+    titutloFanfic.value = " ";
+    titutloFanfic.focus();
     textoFanfic.focus();
 }
-
-//pega o titulo para escolher a fanFic 
 
 function salvarHistorias() {
     const historias = listaDeFanfics.querySelectorAll('li')
@@ -57,5 +57,4 @@ function adicionandoHistorias() {  //converte para formato string novamente
 adicionandoHistorias();
 
 
-//pegar apenas o título do texto e sem titulo n tem publicação
-//link cada titulo ao clique abri-lo para leitura do texto
+//linka o titulo com o texto
