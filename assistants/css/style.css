@@ -4,6 +4,7 @@ body {
 
 .container-historiaDasHistorias{
   width: 57%;
+  height: 70%;
   margin: 1% auto;
   background: rgb(255, 255, 255);
   padding: 1%;
@@ -129,4 +130,10 @@ div:hover {
   font-family: OCR A Std, monospace;
   font-weight: 800;
   text-align: center;
+}
+
+#textUmaBoaHistoria{
+  font-family: OCR A Std, monospace;
+  font-weight: 800;
+  font-size: 108%;
 }
