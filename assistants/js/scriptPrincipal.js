@@ -24,6 +24,7 @@ function criarStory(textoStory) {
     listaDeFanfics.appendChild(li);
     salvarHistorias()
 }
+     
 
 function limpaAreaTexto() {
     titutloFanfic.value = " ";
@@ -55,6 +56,5 @@ function adicionandoHistorias() {  //converte para formato string novamente
     }
 }
 adicionandoHistorias();
-
 
 //linka o titulo com o texto
