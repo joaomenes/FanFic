@@ -1,4 +1,5 @@
-//aparecer uma história qualquer
-const menuCentral = document.querySelector('.menu-central');
+const container = document.querySelector('.container');
+const textoFanfic = document.querySelector('.textFanfic'); 
 
-m
+const texto = localStorage.getItem(listaDeFanfics.value);
+document.body.querySelector('.container').innerHTML = texto;

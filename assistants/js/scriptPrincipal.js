@@ -3,6 +3,7 @@ const listaDeFanfics = document.querySelector('#listaDeFanfics');
 const textoFanfic = document.querySelector('.textFanfic');                             //condição para publicação de texto e titulo aplicada.
 const titutloFanfic = document.querySelector('.titulo-fanfic');
 
+
 botaoFanfic.addEventListener('click', function (e) {
 
     if (!textoFanfic.value | !titutloFanfic.value) return confirm("é necessário ter um texto para ser publicado!"); //quando tiver nada o retorno será nada. se não "!" tiver o valor de  textFanfic
