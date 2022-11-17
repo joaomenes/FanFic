@@ -23,11 +23,18 @@ body {
   margin-top: 5%;
   position: absolute;
   margin-left: 19.7%;
+  font-family: monospace;
 }
 
 .titulo-fanfic {
-  border-color: black;
+  
   font-size: 15px;
+}
+
+.instagram {
+  font-size: 15px;
+  width:30%;
+  font-family: monospace;
 }
 
 .container-stories {
@@ -71,7 +78,6 @@ textarea,
 style {
   padding: 1%;
   height: 500%;
-
 }
 
 .btn-fanfic {
