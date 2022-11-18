@@ -13,13 +13,12 @@
 
     <section class="menu">
         <a style="color: black;" href="./lerUmaHistoria.html">
-        <div class="menu-central">LER UMA HISTÓRIA</div>
+        <div class="menu-central-principal">LER UMA HISTÓRIA</div>
         </a>
         <a style="color: black;"
             href="./historiaDasHistorias.html">
-            <div class="menu-esquerda">HISTÓRIA DAS HISTÓRIAS</div>
+            <div class="menu-esquerda-principal">HISTÓRIA DAS HISTÓRIAS</div>
         </a>
-        <div class="menu-direita">TESTE</div>
 
     </section>
 
@@ -28,21 +27,23 @@
     <section class="container-stories">
 
         <h1 class="story">Stories:</h1>
-        <ul class="titulos"></ul>
-        <ul id="listaDeFanfics"></ul>
+        <ul class="titulos" ></ul>
+        <ul id="listaDeFanfics" ></ul>
 
     </section>
 
     <section class="container">
         <h1 style="font-style: solid ;">Digite sua fanfic aqui...</h1>
-        <input type="text" class="titulo-fanfic" placeholder="Digite o título da sua fanfic...">
+        <input type="text" class="titulo-fanfic"  maxlength="124" placeholder="Digite o título da fanfic" data-is-module="charCounter" maxlegth="20"> <!--maxlength para limitar o caractere-->
 
         <textarea class="textFanfic" cols=" 30%" rows="25%" style="resize: none"
             placeholder="Digite sua fanfic aqui..."></textarea>
         <button type="submit" class="btn-fanfic" style="color: white;">Publicar</button>
 
         <input type="text"  class="instagram" placeholder="Digite seu @ do instagram">
+        <p id="autor">Autor da fanfic:</p>
     </section>
+
 
 
     <div id="texto-publicados"></div>

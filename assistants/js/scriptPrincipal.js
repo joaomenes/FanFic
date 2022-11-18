@@ -2,6 +2,7 @@ const botaoFanfic = document.querySelector('.btn-fanfic');
 const listaDeFanfics = document.querySelector('#listaDeFanfics');
 const textoFanfic = document.querySelector('.textFanfic');                             //condição para publicação de texto e titulo aplicada.
 const titutloFanfic = document.querySelector('.titulo-fanfic');
+const instagram = document.querySelector('.instagram');
 
 
 botaoFanfic.addEventListener('click', function (e) {
@@ -12,6 +13,7 @@ botaoFanfic.addEventListener('click', function (e) {
     if (confirma == true) {
         criarStory((titutloFanfic.value));
         limpaAreaTexto();
+        document.location.reload(true)
     }});
 
 function criarLi() {
