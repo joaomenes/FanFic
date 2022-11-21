@@ -68,6 +68,12 @@ body {
   font-size: 120%;
 }
 
+#listaDeFanfics{
+  text-overflow: ellipsis;  /*Defini o que deve ser cortado para não ultrapassar a Div*/
+  white-space: nowrap; /*Defini o que fazer com o espaço em branco*/
+  overflow: hidden;  /*Defini o que fazer com o que o usuário não pode ver*/
+} 
+
 .container-playlistMusic {
   width: 15%;
   margin: 1% auto;

@@ -18,7 +18,7 @@ botaoFanfic.addEventListener('click', function (e) {
 
 function criarLi() {
     const li = document.createElement('li');  //retorna li 
-    return li;
+    return li;                                                                                                                                                                                                          
 }
 
 function criarStory(textoStory) {
